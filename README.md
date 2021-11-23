@@ -12,22 +12,31 @@
 
 Фотографии
 ---
-<a href="https://github.com/maestro-102/electronic_load/blob/master/image/1.jpg" target="_blank">
-    <img src="https://github.com/maestro-102/electronic_load/blob/master/image/1.jpg?raw=true" width=30% alt="preview">
+<a href="https://github.com/maestro-102/functional_generator/blob/master/images/1.jpg" target="_blank">
+    <img src="https://github.com/maestro-102/functional_generator/blob/master/images/1.jpg?raw=true" width=30% alt="preview">
 </a>
 
-<a href="https://github.com/maestro-102/electronic_load/blob/master/image/2.jpg" target="_blank">
-    <img src="https://github.com/maestro-102/electronic_load/blob/master/image/2.jpg?raw=true" width=30% alt="preview">
+<a href="https://github.com/maestro-102/functional_generator/blob/master/images/2.jpg" target="_blank">
+    <img src="https://github.com/maestro-102/functional_generator/blob/master/images/2.jpg?raw=true" width=30% alt="preview">
+</a>
+
+<a href="https://github.com/maestro-102/functional_generator/blob/master/images/3.jpg" target="_blank">
+    <img src="https://github.com/maestro-102/functional_generator/blob/master/images/3.jpg?raw=true" width=30% alt="preview">
 </a>
 
 Характеристики
 ----
-- диапазон проверяемых напряжений 5 - 35В
-- удерживаемый ток нагрузки 0 - 3А
+- цифровое программирование частоты и фазы.
+- потребляемая мощность 12.65 мВт при напряжении 3 В.
+- диапазон выходных частот от 0 МГц до 12.5 МГц.
+- разрешение 28 бит (0.1 Гц при частоте опорного сигнала 25 МГц).
+- тип сигнала: синусоидальные, треугольные и прямоугольные выходные колебания.
+- напряжение питания от 2.3 В до 5.5 В.
+
 
 Описание
 ---
-База устройства - операционный усилитель LM358. Источник опорного напряжения построен на TL431. Силовой ключ - IRFZ44N на хорошем радиаторе с активным обдувом.
+База устройства - Arduino UNO. Генератор сделан в виде шилда. Т.е., когда нужен генератор, берем этот шилд, вешаем на Arduino UNO, прошиваем и работаем. Когда генератор не нужен, Arduino можно использовать для других целей: экспериментов, отлаживания прошивок, и т.д. Сердце генератора - сам генератор AD9833, заказанный на всемирной площадке... 
 
 Программы для просмотра файлов
 -----
